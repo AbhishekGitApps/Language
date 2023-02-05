@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "205592199978",
+    "firebase_url": "https://language-a896a-default-rtdb.firebaseio.com",
+    "project_id": "language-a896a",
+    "storage_bucket": "language-a896a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205592199978:android:a6786829d57f33aa8c1453",
+        "android_client_info": {
+          "package_name": "com.abhishek.language"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205592199978-d0p60i4da0grhcfdfme4fipdm5hh25bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2ZskadQYx6Uwi7RhuQEa7oiDqPevfI1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205592199978-d0p60i4da0grhcfdfme4fipdm5hh25bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

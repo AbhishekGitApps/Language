@@ -30,7 +30,7 @@ public class WordsActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.words_recycle_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        DatabaseReference dbReference = FirebaseDatabase.getInstance().getReference("languages").child(languageName).child("category").child(categoryName).child("words");
+        dbReference = FirebaseDatabase.getInstance().getReference("languages").child(languageName).child("category").child(categoryName).child("words");
         FirebaseRecyclerOptions<DataModel2> options = new FirebaseRecyclerOptions.Builder<DataModel2>()
                 .setQuery(dbReference, DataModel2.class).build();
         String key = dbReference.getKey();
